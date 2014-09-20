@@ -7,6 +7,9 @@ function ReverseDiv(d) {
 };
 
 function submitThis() {
+	if(O0O0O00==""){
+		O0O0O00="Como decían mis ancestros: <i>.En la forma de pedir está el dar.</i>"; 
+	}
 
         if (document.getElementById("txtpetition").value.length < 3) {
             document.getElementById("output").innerHTML = error_pet;
