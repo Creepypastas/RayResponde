@@ -1,5 +1,5 @@
 	<html>
-		<title>Peter Answer</title>
+		<title>Pregúntale a Ray</title>
 	<head>
 <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
@@ -7,19 +7,19 @@
 		<div id="content">
 
 
-		<a href="http://github.com/jeremejazz/PeterAnswers-Mod"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+		<!--a href="http://github.com/jeremejazz/PeterAnswers-Mod"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a-->
 				
 <div id="divPlayAreaExt">
 					<div id="divLicense" style="display:none"></div>
 					<div id="divPlayArea">
 						<div id="petition">
 							<input id="btnClear" type="button" value="Clear" onclick="reset()" class="btn btnSmall"/>
-							<p class="lbl">Petition:</p>
+							<p class="lbl">Petición:</p>
 							<input id="txtpetition" type="text" onkeypress="return O00OOOO(event, this)" onkeydown="O00OOO0(event)" onpaste="return false;" oncontextmenu="return false;" class="input"/>
 						</div>
 						<div id="question">
 							<input id="btnAsk" type="button" value="OK" onclick="submitThis()" class="btn btnSmall"/>
-							<p class="lbl">Question:</p>
+							<p class="lbl">Pregunta:</p>
 							<input id="txtquestion" type="text" onkeypress="return O0O0000(event, this)" onkeydown="O000OOO(event)" onpaste="return false;" oncontextmenu="return false;" class="input"/>
 						</div>
 						<input id="btnNew" type="button" value="New Question" onclick="reset()" class="btn btnLarge" style="visibility:hidden"/>
@@ -32,7 +32,7 @@
 </div>
 
 <script type="text/javascript">
-/*Labels */
+/* English 
 var lang = "EN";
 var mask = "Peter, please answer the following question:";
 var loadingbar = "<img alt=\"Loading\" src=\"loading.gif\" style=\"border:0; width:124px; height:11px;\" />";
@@ -40,6 +40,16 @@ var O000O0O = "No connection.";
 var error_pet = "You must enter a valid petition.";
 var error_q = "You must enter a valid question.";
 var O000OO0 = "<img alt=\"Loading\" src=\"loading.gif\" style=\"border:0; vertical-align:bottom; margin-top:80px;\" /><p style=\"color:#BAA384\">Loading...</p>";
+*/
+/* Español */
+var lang = "ES";
+var mask = "Ray, por favor responde esta pregunta que me atormenta:";
+var loadingbar = "<img alt=\"Loading\" src=\"loading.gif\" style=\"border:0; width:124px; height:11px;\" />";
+var O000O0O = "Error de conexión.";
+var error_pet = "Debes ingresar una petición válida.";
+var error_q = "Debes ingresar una pregunta válida.";
+var O000OO0 = "<img alt=\"Loading\" src=\"loading.gif\" style=\"border:0; vertical-align:bottom; margin-top:80px;\" /><p style=\"color:#BAA384\">Loading...</p>";
+
 </script>
 
 		<script type="text/javascript" src="peter.js"></script>
