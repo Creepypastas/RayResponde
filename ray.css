@@ -159,9 +159,11 @@ input:focus, textarea:focus {
   /*background-color:red;*/
 }
 #adabajo{
-	height: 90px;
-	overflow: hidden;
 	width: 100%;
+	height: 90px;
+	margin: 22px auto auto auto;
+	overflow: hidden;
+	min-width: 320px;
 }
 .answer{color:#eee;}
 
