@@ -171,3 +171,11 @@ input:focus, textarea:focus {
 	}
 }
 .answer{color:#eee;}
+
+#adabajo{
+	padding-top:  22px;
+	height: 90px;
+	overflow: scroll;
+	max-width:728px;
+	margin:auto
+}
