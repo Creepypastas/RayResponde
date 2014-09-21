@@ -21,8 +21,8 @@ function submitThis() {
             } else {
                 document.getElementById("txtpetition").readOnly = true;
                 document.getElementById("txtquestion").readOnly = true;
-                document.getElementById("btnAsk").style.visibility = "hidden";
-                document.getElementById("btnNew").style.visibility = "visible";
+                document.getElementById("btnAsk").style.display = "none";
+                document.getElementById("btnNew").style.display = "block";
                 document.getElementById("output").innerHTML = loadingbar;
                 setTimeout(function(){
                     document.getElementById("output").innerHTML = O0O0O00;
@@ -47,9 +47,9 @@ function reset() {
     document.getElementById("txtquestion").value = "";
     document.getElementById("txtpetition").readOnly = false;
     document.getElementById("txtquestion").readOnly = false;
-    document.getElementById("btnAsk").style.visibility = "visible";
+    document.getElementById("btnAsk").style.display = "block";
     document.getElementById("output").innerHTML = "";
-    document.getElementById("btnNew").style.visibility = "hidden";
+    document.getElementById("btnNew").style.display = "none";
     document.getElementById("txtpetition").focus()
 }
 
