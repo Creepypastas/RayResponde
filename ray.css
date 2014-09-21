@@ -29,8 +29,6 @@ html{    background:url() no-repeat;
 	position: absolute;
   margin-top:30px;
 	margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
 }
 
 .feedback-input {
@@ -167,6 +165,7 @@ input:focus, textarea:focus {
 		margin-right: 3%;
 		width: 88%;
 		margin-left: 0;
+		margin-top:0px;
 		padding-left: 3%;
 		padding-right: 3%;
 	}
