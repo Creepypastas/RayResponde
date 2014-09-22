@@ -164,7 +164,11 @@ input:focus, textarea:focus {
 	margin: 22px auto auto auto;
 	min-width: 320px;
 }
-.answer{color:#eee;}
+.answer{
+	color:#ccc;
+	padding:0px 0px 20px 70px;
+	font-size: 20px;
+}
 
 @media only screen and (max-width: 580px) {
 	#form-div{
