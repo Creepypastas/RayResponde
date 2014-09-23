@@ -8,6 +8,8 @@ function ReverseDiv(d) {
 
 function predef(){
 	var myArray = [
+		'42',
+		'Cuarenta y dos',
 		'Como decían mis ancestros: <i>En la forma de pedir está el dar</i>',
 		'Esta no es la verdadera pregunta de tu corazón.',
 		'La forma en que realizas la petición no es la correcta.',
