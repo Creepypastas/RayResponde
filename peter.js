@@ -6,9 +6,23 @@ function ReverseDiv(d) {
     }
 };
 
+function predef(){
+	var myArray = [
+		'Como decían mis ancestros: <i>En la forma de pedir está el dar</i>',
+		'Esta no es la verdadera pregunta de tu corazón.',
+		'La forma en que realizas la petición no es la correcta.',
+		'No puedo responder esto ahora.',
+		'Hay cosas que sólo puedo responder en noches de luna llena',
+		'Francamente no estoy de humor.',
+		'Por favor, deja que sea alguien más quien haga las preguntas.',
+		'Estoy cansado, no responderé.'
+	];
+	return myArray[Math.floor(Math.random() * myArray.length)];
+}
+
 function submitThis() {
 	if(O0O0O00==""){
-		O0O0O00="Como decían mis ancestros: <i>En la forma de pedir está el dar</i>"; 
+		O0O0O00 = predef(); 
 	}
 
         if (document.getElementById("txtpetition").value.length < 3) {
