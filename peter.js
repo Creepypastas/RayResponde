@@ -24,7 +24,10 @@ function predef(){
 
 function submitThis() {
 	if(O0O0O00==""){
-		O0O0O00 = predef(); 
+		if(document.getElementById("txtpetition").value == rayH && document.getElementById("txtquestion").value == rayHp)
+			O0O0O00 = "Escribe <i><b>.</b>Armando<b>.</b></i> en la petición, y verás lo que sucede.<br/>Ahora invita a tus amigos a jugar y sorpréndelos."; 
+		else
+			O0O0O00 = predef(); 
 	}
 
         if (document.getElementById("txtpetition").value.length < 3) {
