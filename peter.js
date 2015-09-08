@@ -19,7 +19,10 @@ function predef(){
 		'Por favor, deja que sea alguien más quien haga las preguntas.',
 		'Estoy cansado, no responderé.',
     '¿Qué año es? ¡Estoy hambriento!',
-    'Quisiera un poco de pudin antes de responder, por favor'
+    'Quisiera un poco de pudin antes de responder, por favor',
+    'Yo preguntaría con más cuidado si fuera tú',
+    'Estoy de buenas: Ve directo al punto para preguntar.',
+    '¿Necesitas ayuda para hacer tu petición?'
 	];
 	return myArray[Math.floor(Math.random() * myArray.length)];
 }
