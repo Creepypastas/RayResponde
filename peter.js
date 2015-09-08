@@ -17,7 +17,9 @@ function predef(){
 		'Hay cosas que sólo puedo responder en noches de luna llena',
 		'Francamente no estoy de humor.',
 		'Por favor, deja que sea alguien más quien haga las preguntas.',
-		'Estoy cansado, no responderé.'
+		'Estoy cansado, no responderé.',
+    '¿Qué año es? ¡Estoy hambriento!',
+    'Quisiera un poco de pudin antes de responder, por favor'
 	];
 	return myArray[Math.floor(Math.random() * myArray.length)];
 }
@@ -25,9 +27,9 @@ function predef(){
 function submitThis() {
 	if(O0O0O00==""){
 		if(document.getElementById("txtpetition").value == rayH && document.getElementById("txtquestion").value == rayHp)
-			O0O0O00 = "Escribe <i><b>.</b>Armando<b>.</b></i> en la petición, y verás lo que sucede.<br/>Ahora invita a tus amigos a jugar y sorpréndelos."; 
+			O0O0O00 = "Escribe <i><b>.</b>Armando<b>.</b></i> en la petición, y verás lo que sucede.<br/>Ahora invita a tus amigos a jugar y sorpréndelos.";
 		else
-			O0O0O00 = predef(); 
+			O0O0O00 = predef();
 	}
 
         if (document.getElementById("txtpetition").value.length < 3) {
@@ -46,7 +48,7 @@ function submitThis() {
                 setTimeout(function(){
                     document.getElementById("output").innerHTML = O0O0O00;
                 },1000 * Math.random());
-                
+
                 /*
                 //no more ajax!
                  */
