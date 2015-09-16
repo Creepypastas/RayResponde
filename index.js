@@ -32,6 +32,6 @@ $(function(){
 $(document).ready(function() {
   setTimeout(function() {
     // send 'em packing
-    $('#ask').append('<a href="/">Preguntar</a>');
+    $('#ask').append('<a href="http://ray.creepypastas.net/preguntar.html">Preguntar</a>');
   }, 30000);
 });
