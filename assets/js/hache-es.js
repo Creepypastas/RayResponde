@@ -22,7 +22,7 @@ $(function(){
     }
     // make conversation
     $('#story').typed({
-        strings: ["Lee estas instrucciones únicamente si no tienes compañía.^2000 \nSi alguien está contigo,^300 por favor cierra el portal y ^1000 vuelve en otro momento.^5000 \nSi aún estás leyendo, supondremos que nadie te acompaña.^2000 \nEl secreto es:^1000 \n\nRay no existe, son los papás.^3000 \nEn la petición, el usuario escribe en secreto la respuesta.^200 \nSi comienzas la petición con un punto '.', tu respuesta se escribirá en secreto\n disfrazada por el texto 'Ray, por favor responde...'^500 \nEntonces Ray no adivina, sólo es tu cómplice \n para sorprender y asustar un poco a tus amigos. "],
+        strings: ["Lee estas instrucciones únicamente si no tienes compañía.^2000 \nSi alguien está contigo,^300 por favor cierra el portal y ^1000 vuelve en otro momento.^5000 \nSi aún estás leyendo, supondremos que nadie te acompaña.^2000 \nEl secreto es:^1000 \n\nRay no existe, son los papás.^3000 \nEn la petición, el usuario escribe en secreto la respuesta.^200 \nSi comienzas la petición con un punto '.', tu respuesta se escribirá en secreto\n disfrazada por el texto 'Ray, por favor responde...'^500 \nEntonces Ray no adivina, sólo es tu cómplice \n para sorprender y asustar un poco a tus amigos. \nPrueba ingresando la pregunta '¿Dónde vivimos?', y escribe '.Planeta Tierra.' en la petición.\nHabrás notado que la petición se disfraza...^2000\n\nDiviértete."],
         typeSpeed: 15,
         backDelay: 500,
         loop: false,
