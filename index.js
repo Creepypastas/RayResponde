@@ -32,6 +32,6 @@ $(function(){
 $(document).ready(function() {
   setTimeout(function() {
     // send 'em packing
-    $('#ask').append('<a href="http://ray.creepypastas.net/preguntar.html">Preguntar</a>' + '<a href="http://ray.creepypastas.net/hache-es.html">(H)</a>');
+    $('#ask').append('<a href="http://ray.creepypastas.net/preguntar.html">Preguntar</a>' + ' | ' + '<a href="http://ray.creepypastas.net/hache-es.html">Ayuda</a>');
   }, 25000);
 });
